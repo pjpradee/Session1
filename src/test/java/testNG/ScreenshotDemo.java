@@ -19,6 +19,8 @@ public class ScreenshotDemo
 	  WebDriverManager.chromedriver().setup();
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://www.google.com");
+	  driver.get("https://www.amazon.in/");
+
 	  driver.get("https://www.flipkart.com/");
 	  driver.manage().window().maximize();
 	  
