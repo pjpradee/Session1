@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FaceBookLogin">
+
+  <test thread-count="5" name="SmokeTesting">
+  <groups><run><include name="Session1"></include></run></groups>
+  <classes>
+  <class name="testNG.SessionCross"></class>
+  </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="SanityTesting">
+  <groups><run><include name="Session2"></include></run></groups>
+  <classes>
+  <class name="testNG.SessionCross"></class>
+  </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
